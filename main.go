@@ -1,7 +1,7 @@
 package main
 
 func main(){
-	//netTest()
+	NetTest()
 	//sliceTest()
-	myServer()
+	MyServer()
 }

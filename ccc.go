@@ -6,7 +6,7 @@ import (
 	"reflect"
 )
 // net.Interfaces : Test
-func netTest(){
+func NetTest(){
 	fmt.Println("\n- netTest() - ")
 	//fmt.Println("Hi")
 	l, err := net.Interfaces()

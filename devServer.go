@@ -5,7 +5,7 @@ import (
 	"net"
 	//"reflect"
 )
-func myServer(){
+func MyServer(){
 	discoveryMulticastAddr, err := net.ResolveUDPAddr("udp","239.255.255.250:3702")
 	if err != nil {
 		fmt.Println("Error : ", err)
